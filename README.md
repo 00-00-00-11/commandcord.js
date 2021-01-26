@@ -18,7 +18,7 @@
 Simple `!ping` pong bot using commands
 
 ```js
-const Discord = require("./dsc/commands/Bot.js")
+const Discord = require("commandcord.js")
 const bot = new Discord.commands.Bot(command_prefix="!")
 
 bot.cmd.on("ping", (ctx) => {
@@ -35,7 +35,7 @@ bot.run("BOT_TOKEN")
 
 ## Basic on_message Bot
 ```js
-const Discord = require("./dsc/commands/Bot.js")
+const Discord = require("commandcord.js")
 const bot = new Discord.commands.Bot(command_prefix="!")
 
 bot.cmd.on("message", (m) => {
