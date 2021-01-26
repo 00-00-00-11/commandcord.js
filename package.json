@@ -1,0 +1,26 @@
+{
+  "name": "commandcord.js",
+  "version": "1.0.0",
+  "description": "A javascript/node.js discord API wrapper making commands easier than current wrappers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rij1234/commandcord.js.git"
+  },
+  "keywords": [
+    "commandcord",
+    "commandcord.js",
+    "discord",
+    "discord api",
+    "discord api wrapper"
+  ],
+  "author": "rij1234",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rij1234/commandcord.js/issues"
+  },
+  "homepage": "https://github.com/rij1234/commandcord.js#readme"
+}
