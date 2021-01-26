@@ -6,7 +6,7 @@
 <a href="#Stats">Stats</a><br>
 <a href="#install">Install</a><br>
 <a href="#basic-commands-bot">Command Example</a><br>
-<a href="#basic-on_message-bot">Command Example</a><br>
+<a href="#basic-on_message-bot">On Message Example</a><br>
 
 ## Stats
 [![NPM](https://nodei.co/npm/commandcord.js.png)](https://nodei.co/npm/commandcord.js/)
