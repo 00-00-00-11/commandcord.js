@@ -1,5 +1,5 @@
 const Discord = require("./dsc/commands/Bot.js")
-const bot = new Discord.Bot(command_prefix="!")
+const bot = new Discord.commands.Bot(command_prefix="!")
 
 bot.cmd.on("ping", (ctx) => {
     ctx.send("pong!")
