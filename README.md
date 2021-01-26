@@ -1,6 +1,8 @@
 # Commandcord.js
 #### A javascript/node.js discord API wrapper making commands easier than current wrappers.
 
+####  [Support Server](https://rjson.dev/support)
+
 ## Table Of Contents
 <a href="#">Commandcord.js</a><br>
 <a href="#Stats">Stats</a><br>
