@@ -68,7 +68,7 @@ exports.Actions = class {
 
 
 exports.Bot = class {
-    constructor(command_prefix){
+    constructor(command_prefix=""){
         this.prefix = command_prefix;
         this.cmd = new EventEmitter()
         this.events = new EventEmitter()
