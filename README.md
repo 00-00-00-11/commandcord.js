@@ -2,6 +2,7 @@
 #### A javascript/node.js discord API wrapper making commands easier than current wrappers.
 
 ####  [Support Server](https://rjson.dev/support)
+![DISCORD](https://img.shields.io/discord/708124653411106888?color=7289da&logo=discord&logoColor=white)
 
 ## Table Of Contents
 <a href="#">Commandcord.js</a><br>
@@ -12,7 +13,7 @@
 
 ## Stats
 [![NPM](https://nodei.co/npm/commandcord.js.png)](https://nodei.co/npm/commandcord.js/)
-![DISCORD](https://img.shields.io/discord/708124653411106888?color=7289da&logo=discord&logoColor=white)
+
 ## Install
 ```npm i commandcord.js```
 
