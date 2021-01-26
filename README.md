@@ -1,1 +1,52 @@
-# commandcord.js
+# Commandcord.js
+#### A javascript/node.js discord API wrapper making commands easier than current wrappers.
+
+## Table Of Contents
+<a href="#">Commandcord.js</a><br>
+<a href="#Stats">Stats</a><br>
+<a href="#install">Install</a><br>
+<a href="#basic-commands-bot">Command Example</a><br>
+<a href="#basic-on_message-bot">Command Example</a><br>
+
+## Stats
+[![NPM](https://nodei.co/npm/commandcord.js.png)](https://nodei.co/npm/commandcord.js/)
+
+## Install
+```npm i commandcord.js```
+
+## Basic Commands Bot
+Simple `!ping` pong bot using commands
+
+```js
+const Discord = require("./dsc/commands/Bot.js")
+const bot = new Discord.commands.Bot(command_prefix="!")
+
+bot.cmd.on("ping", (ctx) => {
+    ctx.send("pong!")
+})
+
+/*
+When '!ping' is typed, then the bot will reply with 'pong!'. 
+*/
+
+bot.run("BOT_TOKEN")
+```
+
+
+## Basic on_message Bot
+```js
+const Discord = require("./dsc/commands/Bot.js")
+const bot = new Discord.commands.Bot(command_prefix="!")
+
+bot.cmd.on("message", (m) => {
+    if(m.content === "!ping"){
+        await m.channel.send("pong!")
+    }
+})
+
+/*
+When '!ping' is typed, then the bot will reply with 'pong!'. 
+*/
+
+bot.run("BOT_TOKEN")
+```
