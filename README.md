@@ -39,7 +39,7 @@ bot.run("BOT_TOKEN")
 ## Basic on_message Bot
 ```js
 const Discord = require("commandcord.js")
-const bot = new Discord.commands.Bot(command_prefix="!")
+const bot = new Discord.commands.Bot()
 
 bot.events.on("message", (m) => {
     if(m.content === "!ping"){
