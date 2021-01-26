@@ -41,7 +41,7 @@ bot.run("BOT_TOKEN")
 const Discord = require("commandcord.js")
 const bot = new Discord.commands.Bot(command_prefix="!")
 
-bot.cmd.on("message", (m) => {
+bot.events.on("message", (m) => {
     if(m.content === "!ping"){
         await m.channel.send("pong!")
     }
