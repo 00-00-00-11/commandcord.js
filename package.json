@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/rij1234/commandcord.js/issues"
   },
-  "homepage": "https://github.com/rij1234/commandcord.js#readme"
+  "homepage": "https://github.com/rij1234/commandcord.js#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "ws": "^7.4.2"
+  }
 }
