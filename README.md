@@ -12,7 +12,7 @@
 <a href="#basic-on_message-bot">On Message Example</a><br>
 
 ## Stats
-[![NPM](https://nodei.co/npm/commandcord.js.png)](https://nodei.co/npm/commandcord.js/)
+[![NPM](https://nodei.co/npm/commandcord.js.png)](https://nodei.co/npm/commandcord.js/v/latest)
 
 ## Install
 ```npm i commandcord.js```
